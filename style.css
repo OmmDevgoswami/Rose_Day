@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(217deg, #f59ce7, #f5e79c, #f2857f, #e57ff2, #eb7d81);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    -o-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 78%}
+    50%{background-position:100% 23%}
+    100%{background-position:0% 78%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 78%}
+    50%{background-position:100% 23%}
+    100%{background-position:0% 78%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 78%}
+    50%{background-position:100% 23%}
+    100%{background-position:0% 78%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 78%}
+    50%{background-position:100% 23%}
+    100%{background-position:0% 78%}
+}
+
+h1{
+    font-family: 'Protest Riot', sans-serif;
+}
+
+#welcome{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 50px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+}
+
+.col{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#click>a{
+    text-decoration: none;
+    color: whitesmoke
+}
